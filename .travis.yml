@@ -1,0 +1,2 @@
+language: objective-c
+script: xctool -project eppz!swizzler.xcodeproj -scheme eppz!swizzler test

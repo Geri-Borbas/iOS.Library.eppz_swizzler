@@ -22,6 +22,8 @@
 		D8E7181418BF929B00E362AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E7181218BF929B00E362AB /* InfoPlist.strings */; };
 		D8E7181618BF929B00E362AB /* eppz_swizzlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7181518BF929B00E362AB /* eppz_swizzlerTests.m */; };
 		D8E7182118BF92D000E362AB /* EPPZSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7182018BF92D000E362AB /* EPPZSwizzler.m */; };
+		D8E7182318BFB56900E362AB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D8E7182218BFB56900E362AB /* README.md */; };
+		D8E7182518BFB5F100E362AB /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = D8E7182418BFB5F100E362AB /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		D8E7181518BF929B00E362AB /* eppz_swizzlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eppz_swizzlerTests.m; sourceTree = "<group>"; };
 		D8E7181F18BF92D000E362AB /* EPPZSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSwizzler.h; sourceTree = "<group>"; };
 		D8E7182018BF92D000E362AB /* EPPZSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSwizzler.m; sourceTree = "<group>"; };
+		D8E7182218BFB56900E362AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D8E7182418BFB5F100E362AB /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		D8E717DE18BF929B00E362AB = {
 			isa = PBXGroup;
 			children = (
+				D8E7182418BFB5F100E362AB /* .travis.yml */,
+				D8E7182218BFB56900E362AB /* README.md */,
 				D8E717F018BF929B00E362AB /* eppz!swizzler */,
 				D8E7180F18BF929B00E362AB /* eppz!swizzlerTests */,
 				D8E717E918BF929B00E362AB /* Frameworks */,
@@ -234,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E7182518BFB5F100E362AB /* .travis.yml in Resources */,
 				D8E7180318BF929B00E362AB /* Images.xcassets in Resources */,
 				D8E717F518BF929B00E362AB /* InfoPlist.strings in Resources */,
+				D8E7182318BFB56900E362AB /* README.md in Resources */,
 				D8E717FE18BF929B00E362AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +475,7 @@
 				D8E7181B18BF929B00E362AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8E7181C18BF929B00E362AB /* Build configuration list for PBXNativeTarget "eppz!swizzlerTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				D8E7181E18BF929B00E362AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
