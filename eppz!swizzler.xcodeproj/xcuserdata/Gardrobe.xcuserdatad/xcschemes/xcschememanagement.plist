@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>eppz!swizzler.xcscheme_^#shared#^_</key>
+		<key>eppz!swizzler.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>eppz!swizzlerTests.xcscheme_^#shared#^_</key>
+		<key>eppz!swizzlerTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -23,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>AE50EA1618CBC85D004154D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE68DB6E18CCA66900164B40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE68DB7B18CCA66900164B40</key>
 		<dict>
 			<key>primary</key>
 			<true/>

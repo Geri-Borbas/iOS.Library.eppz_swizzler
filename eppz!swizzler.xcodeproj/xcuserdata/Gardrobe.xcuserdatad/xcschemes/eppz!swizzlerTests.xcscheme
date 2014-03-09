@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE50EA0918CBC85D004154D0"
-               BuildableName = "libeppz!swizzler.a"
-               BlueprintName = "eppz!swizzler"
+               BlueprintIdentifier = "AE68DB7B18CCA66900164B40"
+               BuildableName = "eppz!swizzlerTests.xctest"
+               BlueprintName = "eppz!swizzlerTests"
                ReferencedContainer = "container:eppz!swizzler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE50EA1618CBC85D004154D0"
+               BlueprintIdentifier = "AE68DB7B18CCA66900164B40"
                BuildableName = "eppz!swizzlerTests.xctest"
                BlueprintName = "eppz!swizzlerTests"
                ReferencedContainer = "container:eppz!swizzler.xcodeproj">

@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE267C0C18CBFD7F0066D2A0 /* Wolverine.m in Sources */ = {isa = PBXBuildFile; fileRef = AE267C0B18CBFD7F0066D2A0 /* Wolverine.m */; };
-		AE267C1018CC00530066D2A0 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = AE267C0F18CC00530066D2A0 /* Human.m */; };
-		AE267C1818CC07E20066D2A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1718CC07E20066D2A0 /* LICENSE */; };
-		AE267C1A18CC07F10066D2A0 /* eppz!swizzler.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */; };
-		AE50EA0B18CBC85D004154D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E717EA18BF929B00E362AB /* Foundation.framework */; };
-		AE50EA1818CBC85E004154D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E7180918BF929B00E362AB /* XCTest.framework */; };
-		AE50EA1918CBC85E004154D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E717EA18BF929B00E362AB /* Foundation.framework */; };
-		AE50EA1B18CBC85E004154D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50EA1A18CBC85E004154D0 /* UIKit.framework */; };
-		AE50EA1E18CBC85E004154D0 /* libeppz!swizzler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50EA0A18CBC85D004154D0 /* libeppz!swizzler.a */; };
-		AE50EA2D18CBC898004154D0 /* Superman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50EA0118CBC698004154D0 /* Superman.m */; };
-		AE50EA2E18CBC89C004154D0 /* EPPZSwizzlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE73439118CBC530002B5D73 /* EPPZSwizzlerTests.m */; };
-		AE50EA2F18CBC8A8004154D0 /* EPPZSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7182018BF92D000E362AB /* EPPZSwizzler.m */; };
-		AE50EA3218CBCC8C004154D0 /* Superhero.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50EA3118CBCC8C004154D0 /* Superhero.m */; };
-		AE50EA3618CBCF61004154D0 /* Batman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50EA3518CBCF61004154D0 /* Batman.m */; };
-		AE50EA3C18CBD609004154D0 /* Spiderman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50EA3B18CBD609004154D0 /* Spiderman.m */; };
+		AE68DB7018CCA66900164B40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E717EA18BF929B00E362AB /* Foundation.framework */; };
+		AE68DB7D18CCA66900164B40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E7180918BF929B00E362AB /* XCTest.framework */; };
+		AE68DB7E18CCA66900164B40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E717EA18BF929B00E362AB /* Foundation.framework */; };
+		AE68DB7F18CCA66900164B40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50EA1A18CBC85E004154D0 /* UIKit.framework */; };
+		AE68DB8218CCA66900164B40 /* libeppz!swizzler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE68DB6F18CCA66900164B40 /* libeppz!swizzler.a */; };
+		AE68DB9318CCA69300164B40 /* EPPZSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9218CCA69300164B40 /* EPPZSwizzler.m */; };
+		AE68DBA118CCA69E00164B40 /* Batman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9518CCA69E00164B40 /* Batman.m */; };
+		AE68DBA218CCA69E00164B40 /* EPPZSwizzlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9618CCA69E00164B40 /* EPPZSwizzlerTests.m */; };
+		AE68DBA318CCA69E00164B40 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9818CCA69E00164B40 /* Human.m */; };
+		AE68DBA418CCA69E00164B40 /* Spiderman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9A18CCA69E00164B40 /* Spiderman.m */; };
+		AE68DBA518CCA69E00164B40 /* Superhero.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9C18CCA69E00164B40 /* Superhero.m */; };
+		AE68DBA618CCA69E00164B40 /* Superman.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DB9E18CCA69E00164B40 /* Superman.m */; };
+		AE68DBA718CCA69E00164B40 /* Wolverine.m in Sources */ = {isa = PBXBuildFile; fileRef = AE68DBA018CCA69E00164B40 /* Wolverine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE50EA1C18CBC85E004154D0 /* PBXContainerItemProxy */ = {
+		AE68DB8018CCA66900164B40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8E717DF18BF929B00E362AB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE50EA0918CBC85D004154D0;
+			remoteGlobalIDString = AE68DB6E18CCA66900164B40;
 			remoteInfo = "eppz!swizzler";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AE50EA0818CBC85D004154D0 /* CopyFiles */ = {
+		AE68DB6D18CCA66900164B40 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -47,150 +45,150 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE267C0A18CBFD7F0066D2A0 /* Wolverine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolverine.h; sourceTree = "<group>"; };
-		AE267C0B18CBFD7F0066D2A0 /* Wolverine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolverine.m; sourceTree = "<group>"; };
-		AE267C0E18CC00530066D2A0 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
-		AE267C0F18CC00530066D2A0 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 		AE267C1718CC07E20066D2A0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eppz!swizzler.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE50EA0018CBC698004154D0 /* Superman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superman.h; sourceTree = "<group>"; };
-		AE50EA0118CBC698004154D0 /* Superman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superman.m; sourceTree = "<group>"; };
-		AE50EA0A18CBC85D004154D0 /* libeppz!swizzler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libeppz!swizzler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE50EA0E18CBC85D004154D0 /* eppz!swizzler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eppz!swizzler-Prefix.pch"; sourceTree = "<group>"; };
-		AE50EA1718CBC85D004154D0 /* eppz!swizzlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eppz!swizzlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE50EA1A18CBC85E004154D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AE50EA2118CBC85E004154D0 /* eppz!swizzlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eppz!swizzlerTests-Info.plist"; sourceTree = "<group>"; };
-		AE50EA3018CBCC8C004154D0 /* Superhero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superhero.h; sourceTree = "<group>"; };
-		AE50EA3118CBCC8C004154D0 /* Superhero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superhero.m; sourceTree = "<group>"; };
-		AE50EA3418CBCF61004154D0 /* Batman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Batman.h; sourceTree = "<group>"; };
-		AE50EA3518CBCF61004154D0 /* Batman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Batman.m; sourceTree = "<group>"; };
-		AE50EA3A18CBD609004154D0 /* Spiderman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spiderman.h; sourceTree = "<group>"; };
-		AE50EA3B18CBD609004154D0 /* Spiderman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spiderman.m; sourceTree = "<group>"; };
-		AE73439118CBC530002B5D73 /* EPPZSwizzlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSwizzlerTests.m; sourceTree = "<group>"; };
+		AE68DB6F18CCA66900164B40 /* libeppz!swizzler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libeppz!swizzler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE68DB7318CCA66900164B40 /* eppz!swizzler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eppz!swizzler-Prefix.pch"; sourceTree = "<group>"; };
+		AE68DB7C18CCA66900164B40 /* eppz!swizzlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eppz!swizzlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE68DB8518CCA66900164B40 /* eppz!swizzlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eppz!swizzlerTests-Info.plist"; sourceTree = "<group>"; };
+		AE68DB9118CCA69300164B40 /* EPPZSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSwizzler.h; sourceTree = "<group>"; };
+		AE68DB9218CCA69300164B40 /* EPPZSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSwizzler.m; sourceTree = "<group>"; };
+		AE68DB9418CCA69E00164B40 /* Batman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Batman.h; sourceTree = "<group>"; };
+		AE68DB9518CCA69E00164B40 /* Batman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Batman.m; sourceTree = "<group>"; };
+		AE68DB9618CCA69E00164B40 /* EPPZSwizzlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSwizzlerTests.m; sourceTree = "<group>"; };
+		AE68DB9718CCA69E00164B40 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		AE68DB9818CCA69E00164B40 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		AE68DB9918CCA69E00164B40 /* Spiderman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spiderman.h; sourceTree = "<group>"; };
+		AE68DB9A18CCA69E00164B40 /* Spiderman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spiderman.m; sourceTree = "<group>"; };
+		AE68DB9B18CCA69E00164B40 /* Superhero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superhero.h; sourceTree = "<group>"; };
+		AE68DB9C18CCA69E00164B40 /* Superhero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superhero.m; sourceTree = "<group>"; };
+		AE68DB9D18CCA69E00164B40 /* Superman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superman.h; sourceTree = "<group>"; };
+		AE68DB9E18CCA69E00164B40 /* Superman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superman.m; sourceTree = "<group>"; };
+		AE68DB9F18CCA69E00164B40 /* Wolverine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolverine.h; sourceTree = "<group>"; };
+		AE68DBA018CCA69E00164B40 /* Wolverine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolverine.m; sourceTree = "<group>"; };
 		D8E717EA18BF929B00E362AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8E7180918BF929B00E362AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D8E7181F18BF92D000E362AB /* EPPZSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSwizzler.h; sourceTree = "<group>"; };
-		D8E7182018BF92D000E362AB /* EPPZSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZSwizzler.m; sourceTree = "<group>"; };
 		D8E7182218BFB56900E362AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		D8E7182418BFB5F100E362AB /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		D8E7182418BFB5F100E362AB /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE50EA0718CBC85D004154D0 /* Frameworks */ = {
+		AE68DB6C18CCA66900164B40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE50EA0B18CBC85D004154D0 /* Foundation.framework in Frameworks */,
+				AE68DB7018CCA66900164B40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE50EA1418CBC85D004154D0 /* Frameworks */ = {
+		AE68DB7918CCA66900164B40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE50EA1818CBC85E004154D0 /* XCTest.framework in Frameworks */,
-				AE50EA1B18CBC85E004154D0 /* UIKit.framework in Frameworks */,
-				AE50EA1E18CBC85E004154D0 /* libeppz!swizzler.a in Frameworks */,
-				AE50EA1918CBC85E004154D0 /* Foundation.framework in Frameworks */,
+				AE68DB7D18CCA66900164B40 /* XCTest.framework in Frameworks */,
+				AE68DB7F18CCA66900164B40 /* UIKit.framework in Frameworks */,
+				AE68DB8218CCA66900164B40 /* libeppz!swizzler.a in Frameworks */,
+				AE68DB7E18CCA66900164B40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE267C0D18CBFD820066D2A0 /* Wolverine */ = {
+		AE68DB7118CCA66900164B40 /* eppz!swizzler */ = {
 			isa = PBXGroup;
 			children = (
-				AE267C0A18CBFD7F0066D2A0 /* Wolverine.h */,
-				AE267C0B18CBFD7F0066D2A0 /* Wolverine.m */,
-			);
-			name = Wolverine;
-			sourceTree = "<group>";
-		};
-		AE267C1118CC00590066D2A0 /* Human */ = {
-			isa = PBXGroup;
-			children = (
-				AE267C0E18CC00530066D2A0 /* Human.h */,
-				AE267C0F18CC00530066D2A0 /* Human.m */,
-			);
-			name = Human;
-			sourceTree = "<group>";
-		};
-		AE50EA0C18CBC85D004154D0 /* eppz!swizzler */ = {
-			isa = PBXGroup;
-			children = (
-				D8E7181F18BF92D000E362AB /* EPPZSwizzler.h */,
-				D8E7182018BF92D000E362AB /* EPPZSwizzler.m */,
-				AE50EA0D18CBC85D004154D0 /* Supporting Files */,
+				AE68DB9118CCA69300164B40 /* EPPZSwizzler.h */,
+				AE68DB9218CCA69300164B40 /* EPPZSwizzler.m */,
+				AE68DB7218CCA66900164B40 /* Supporting Files */,
 			);
 			path = "eppz!swizzler";
 			sourceTree = "<group>";
 		};
-		AE50EA0D18CBC85D004154D0 /* Supporting Files */ = {
+		AE68DB7218CCA66900164B40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA0E18CBC85D004154D0 /* eppz!swizzler-Prefix.pch */,
+				AE68DB7318CCA66900164B40 /* eppz!swizzler-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE50EA1F18CBC85E004154D0 /* eppz!swizzlerTests */ = {
+		AE68DB8318CCA66900164B40 /* eppz!swizzlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE73439118CBC530002B5D73 /* EPPZSwizzlerTests.m */,
-				AE50EA3318CBCC91004154D0 /* Super hero */,
-				AE267C1118CC00590066D2A0 /* Human */,
-				AE50EA2018CBC85E004154D0 /* Supporting Files */,
+				AE68DB9618CCA69E00164B40 /* EPPZSwizzlerTests.m */,
+				AE68DBA818CCA6A600164B40 /* Superhero */,
+				AE68DBA918CCA6AD00164B40 /* Human */,
+				AE68DB8418CCA66900164B40 /* Supporting Files */,
 			);
 			path = "eppz!swizzlerTests";
 			sourceTree = "<group>";
 		};
-		AE50EA2018CBC85E004154D0 /* Supporting Files */ = {
+		AE68DB8418CCA66900164B40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA2118CBC85E004154D0 /* eppz!swizzlerTests-Info.plist */,
+				AE68DB8518CCA66900164B40 /* eppz!swizzlerTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE50EA3318CBCC91004154D0 /* Super hero */ = {
+		AE68DBA818CCA6A600164B40 /* Superhero */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA3018CBCC8C004154D0 /* Superhero.h */,
-				AE50EA3118CBCC8C004154D0 /* Superhero.m */,
-				AE50EA3718CBCF67004154D0 /* Superman */,
-				AE50EA3818CBCF6D004154D0 /* Batman */,
-				AE50EA3918CBD5F3004154D0 /* Spriderman */,
-				AE267C0D18CBFD820066D2A0 /* Wolverine */,
+				AE68DB9B18CCA69E00164B40 /* Superhero.h */,
+				AE68DB9C18CCA69E00164B40 /* Superhero.m */,
+				AE68DBAB18CCA6BD00164B40 /* Superman */,
+				AE68DBAD18CCA6C800164B40 /* Batman */,
+				AE68DBAC18CCA6C300164B40 /* Spiderman */,
+				AE68DBAA18CCA6B600164B40 /* Wolverine */,
 			);
-			name = "Super hero";
+			name = Superhero;
 			sourceTree = "<group>";
 		};
-		AE50EA3718CBCF67004154D0 /* Superman */ = {
+		AE68DBA918CCA6AD00164B40 /* Human */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA0018CBC698004154D0 /* Superman.h */,
-				AE50EA0118CBC698004154D0 /* Superman.m */,
+				AE68DB9718CCA69E00164B40 /* Human.h */,
+				AE68DB9818CCA69E00164B40 /* Human.m */,
+			);
+			name = Human;
+			sourceTree = "<group>";
+		};
+		AE68DBAA18CCA6B600164B40 /* Wolverine */ = {
+			isa = PBXGroup;
+			children = (
+				AE68DB9F18CCA69E00164B40 /* Wolverine.h */,
+				AE68DBA018CCA69E00164B40 /* Wolverine.m */,
+			);
+			name = Wolverine;
+			sourceTree = "<group>";
+		};
+		AE68DBAB18CCA6BD00164B40 /* Superman */ = {
+			isa = PBXGroup;
+			children = (
+				AE68DB9D18CCA69E00164B40 /* Superman.h */,
+				AE68DB9E18CCA69E00164B40 /* Superman.m */,
 			);
 			name = Superman;
 			sourceTree = "<group>";
 		};
-		AE50EA3818CBCF6D004154D0 /* Batman */ = {
+		AE68DBAC18CCA6C300164B40 /* Spiderman */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA3418CBCF61004154D0 /* Batman.h */,
-				AE50EA3518CBCF61004154D0 /* Batman.m */,
+				AE68DB9918CCA69E00164B40 /* Spiderman.h */,
+				AE68DB9A18CCA69E00164B40 /* Spiderman.m */,
 			);
-			name = Batman;
+			name = Spiderman;
 			sourceTree = "<group>";
 		};
-		AE50EA3918CBD5F3004154D0 /* Spriderman */ = {
+		AE68DBAD18CCA6C800164B40 /* Batman */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA3A18CBD609004154D0 /* Spiderman.h */,
-				AE50EA3B18CBD609004154D0 /* Spiderman.m */,
+				AE68DB9418CCA69E00164B40 /* Batman.h */,
+				AE68DB9518CCA69E00164B40 /* Batman.m */,
 			);
-			name = Spriderman;
+			name = Batman;
 			sourceTree = "<group>";
 		};
 		D8E717DE18BF929B00E362AB = {
@@ -200,8 +198,8 @@
 				AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */,
 				D8E7182218BFB56900E362AB /* README.md */,
 				AE267C1718CC07E20066D2A0 /* LICENSE */,
-				AE50EA0C18CBC85D004154D0 /* eppz!swizzler */,
-				AE50EA1F18CBC85E004154D0 /* eppz!swizzlerTests */,
+				AE68DB7118CCA66900164B40 /* eppz!swizzler */,
+				AE68DB8318CCA66900164B40 /* eppz!swizzlerTests */,
 				D8E717E918BF929B00E362AB /* Frameworks */,
 				D8E717E818BF929B00E362AB /* Products */,
 			);
@@ -210,8 +208,8 @@
 		D8E717E818BF929B00E362AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE50EA0A18CBC85D004154D0 /* libeppz!swizzler.a */,
-				AE50EA1718CBC85D004154D0 /* eppz!swizzlerTests.xctest */,
+				AE68DB6F18CCA66900164B40 /* libeppz!swizzler.a */,
+				AE68DB7C18CCA66900164B40 /* eppz!swizzlerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,13 +227,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE50EA0918CBC85D004154D0 /* eppz!swizzler */ = {
+		AE68DB6E18CCA66900164B40 /* eppz!swizzler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE50EA2718CBC85E004154D0 /* Build configuration list for PBXNativeTarget "eppz!swizzler" */;
+			buildConfigurationList = AE68DB8B18CCA66900164B40 /* Build configuration list for PBXNativeTarget "eppz!swizzler" */;
 			buildPhases = (
-				AE50EA0618CBC85D004154D0 /* Sources */,
-				AE50EA0718CBC85D004154D0 /* Frameworks */,
-				AE50EA0818CBC85D004154D0 /* CopyFiles */,
+				AE68DB6B18CCA66900164B40 /* Sources */,
+				AE68DB6C18CCA66900164B40 /* Frameworks */,
+				AE68DB6D18CCA66900164B40 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -243,25 +241,25 @@
 			);
 			name = "eppz!swizzler";
 			productName = "eppz!swizzler";
-			productReference = AE50EA0A18CBC85D004154D0 /* libeppz!swizzler.a */;
+			productReference = AE68DB6F18CCA66900164B40 /* libeppz!swizzler.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AE50EA1618CBC85D004154D0 /* eppz!swizzlerTests */ = {
+		AE68DB7B18CCA66900164B40 /* eppz!swizzlerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE50EA2A18CBC85E004154D0 /* Build configuration list for PBXNativeTarget "eppz!swizzlerTests" */;
+			buildConfigurationList = AE68DB8E18CCA66900164B40 /* Build configuration list for PBXNativeTarget "eppz!swizzlerTests" */;
 			buildPhases = (
-				AE50EA1318CBC85D004154D0 /* Sources */,
-				AE50EA1418CBC85D004154D0 /* Frameworks */,
-				AE50EA1518CBC85D004154D0 /* Resources */,
+				AE68DB7818CCA66900164B40 /* Sources */,
+				AE68DB7918CCA66900164B40 /* Frameworks */,
+				AE68DB7A18CCA66900164B40 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE50EA1D18CBC85E004154D0 /* PBXTargetDependency */,
+				AE68DB8118CCA66900164B40 /* PBXTargetDependency */,
 			);
 			name = "eppz!swizzlerTests";
 			productName = "eppz!swizzlerTests";
-			productReference = AE50EA1718CBC85D004154D0 /* eppz!swizzlerTests.xctest */;
+			productReference = AE68DB7C18CCA66900164B40 /* eppz!swizzlerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -287,59 +285,57 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE50EA0918CBC85D004154D0 /* eppz!swizzler */,
-				AE50EA1618CBC85D004154D0 /* eppz!swizzlerTests */,
+				AE68DB6E18CCA66900164B40 /* eppz!swizzler */,
+				AE68DB7B18CCA66900164B40 /* eppz!swizzlerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE50EA1518CBC85D004154D0 /* Resources */ = {
+		AE68DB7A18CCA66900164B40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE267C1818CC07E20066D2A0 /* LICENSE in Resources */,
-				AE267C1A18CC07F10066D2A0 /* eppz!swizzler.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE50EA0618CBC85D004154D0 /* Sources */ = {
+		AE68DB6B18CCA66900164B40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE50EA2F18CBC8A8004154D0 /* EPPZSwizzler.m in Sources */,
+				AE68DB9318CCA69300164B40 /* EPPZSwizzler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE50EA1318CBC85D004154D0 /* Sources */ = {
+		AE68DB7818CCA66900164B40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE267C1018CC00530066D2A0 /* Human.m in Sources */,
-				AE50EA2E18CBC89C004154D0 /* EPPZSwizzlerTests.m in Sources */,
-				AE50EA3218CBCC8C004154D0 /* Superhero.m in Sources */,
-				AE50EA3618CBCF61004154D0 /* Batman.m in Sources */,
-				AE267C0C18CBFD7F0066D2A0 /* Wolverine.m in Sources */,
-				AE50EA2D18CBC898004154D0 /* Superman.m in Sources */,
-				AE50EA3C18CBD609004154D0 /* Spiderman.m in Sources */,
+				AE68DBA718CCA69E00164B40 /* Wolverine.m in Sources */,
+				AE68DBA318CCA69E00164B40 /* Human.m in Sources */,
+				AE68DBA418CCA69E00164B40 /* Spiderman.m in Sources */,
+				AE68DBA218CCA69E00164B40 /* EPPZSwizzlerTests.m in Sources */,
+				AE68DBA518CCA69E00164B40 /* Superhero.m in Sources */,
+				AE68DBA618CCA69E00164B40 /* Superman.m in Sources */,
+				AE68DBA118CCA69E00164B40 /* Batman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AE50EA1D18CBC85E004154D0 /* PBXTargetDependency */ = {
+		AE68DB8118CCA66900164B40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE50EA0918CBC85D004154D0 /* eppz!swizzler */;
-			targetProxy = AE50EA1C18CBC85E004154D0 /* PBXContainerItemProxy */;
+			target = AE68DB6E18CCA66900164B40 /* eppz!swizzler */;
+			targetProxy = AE68DB8018CCA66900164B40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AE50EA2818CBC85E004154D0 /* Debug */ = {
+		AE68DB8C18CCA66900164B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -350,28 +346,26 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		AE50EA2918CBC85E004154D0 /* Release */ = {
+		AE68DB8D18CCA66900164B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/eppz_swizzler.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eppz!swizzler/eppz!swizzler-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		AE50EA2B18CBC85E004154D0 /* Debug */ = {
+		AE68DB8F18CCA66900164B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -387,13 +381,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "eppz!swizzlerTests/eppz!swizzlerTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		AE50EA2C18CBC85E004154D0 /* Release */ = {
+		AE68DB9018CCA66900164B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -405,7 +398,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eppz!swizzler/eppz!swizzler-Prefix.pch";
 				INFOPLIST_FILE = "eppz!swizzlerTests/eppz!swizzlerTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -486,23 +478,21 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE50EA2718CBC85E004154D0 /* Build configuration list for PBXNativeTarget "eppz!swizzler" */ = {
+		AE68DB8B18CCA66900164B40 /* Build configuration list for PBXNativeTarget "eppz!swizzler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE50EA2818CBC85E004154D0 /* Debug */,
-				AE50EA2918CBC85E004154D0 /* Release */,
+				AE68DB8C18CCA66900164B40 /* Debug */,
+				AE68DB8D18CCA66900164B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AE50EA2A18CBC85E004154D0 /* Build configuration list for PBXNativeTarget "eppz!swizzlerTests" */ = {
+		AE68DB8E18CCA66900164B40 /* Build configuration list for PBXNativeTarget "eppz!swizzlerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE50EA2B18CBC85E004154D0 /* Debug */,
-				AE50EA2C18CBC85E004154D0 /* Release */,
+				AE68DB8F18CCA66900164B40 /* Debug */,
+				AE68DB9018CCA66900164B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		D8E717E218BF929B00E362AB /* Build configuration list for PBXProject "eppz!swizzler" */ = {
 			isa = XCConfigurationList;
