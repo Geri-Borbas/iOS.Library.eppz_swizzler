@@ -1,2 +1,4 @@
 language: objective-c
-script: xctool test -project 'eppz!swizzler.xcodeproj' -scheme 'eppz!swizzlerTests' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script:
+    - xctool -project 'eppz!swizzler.xcodeproj' -scheme 'eppz!swizzler' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - xctool test -project 'eppz!swizzler.xcodeproj' -scheme 'eppz!swizzlerTests' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
