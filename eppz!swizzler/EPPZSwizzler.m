@@ -119,7 +119,29 @@ static char associationKeyKey;
     IMP previousTargetMethod = method_setImplementation(targetMethod,
                                                         method_getImplementation(sourceMethod));
     
-    log(@"Added method `%@` of %@ to %@ with %@", NSStringFromSelector(selector), sourceClass, targetClass, (previousTargetMethod) ? @"success" : @"error");
+    log(@"Replaced method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), sourceClass, targetClass, (previousTargetMethod) ? @"success" : @"error");
+}
+
++(void)replaceInstanceMethod:(SEL) selector
+                     ofClass:(Class) targetClass
+                   fromClass:(Class) sourceClass
+{
+    // Get methods.
+    Method targetMethod = class_getInstanceMethod(targetClass, selector);
+    Method sourceMethod = class_getInstanceMethod(sourceClass, selector);
+    
+    // Checks.
+    if (sourceMethod == nil)
+    { error(@"Instance method `%@` not found on source class %@", NSStringFromSelector(selector), sourceClass); return; };
+    
+    if (targetMethod == nil)
+    { error(@"Instance method `%@` not found on target class %@", NSStringFromSelector(selector), targetClass); return; };
+    
+    // Replace target method.
+    IMP previousTargetMethod = method_setImplementation(targetMethod,
+                                                        method_getImplementation(sourceMethod));
+    
+    log(@"Replaced instance method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), sourceClass, targetClass, (previousTargetMethod) ? @"success" : @"error");
 }
 
 +(void)addClassMethod:(SEL) selector
@@ -220,10 +242,13 @@ static char associationKeyKey;
 }
 
 +(void)synthesizePropertyNamed:(NSString*) propertyName
-                ofTypeEncoding:(const char*) typeEncoding
+                        ofKind:(Class) kind
                       forClass:(Class) targetClass
                     withPolicy:(EPPZSwizzlerProperryAssociationPolicy) policy
 {
+    // Get type encoding.
+    const char *typeEncoding = @encode(typeof(kind));
+    
     // Associate the key for the property to the class itself.
     NSString *keyObject = [NSString stringWithFormat:@"%@Key", propertyName];
     void *key = (__bridge void*)keyObject;

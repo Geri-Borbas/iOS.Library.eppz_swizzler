@@ -88,6 +88,22 @@ typedef enum
 
 /*!
  
+ Replace instance method implementation with implementation
+ picked from another class (for the same method). Does nothing
+ if the method is not implemented already on the target class.
+ 
+ @param selector Selector to replace in target class, and to look for in source class.
+ @param targetClass Class to operate on.
+ @param sourceClass Class the implementation is picked from.
+ 
+ */
++(void)replaceInstanceMethod:(SEL) selector
+                     ofClass:(Class) targetClass
+                   fromClass:(Class) sourceClass;
+
+
+/*!
+ 
  Add class method implementation with implementation
  picked from another class (for the same method). Does
  nothing if the method already exist on the target class.
@@ -139,7 +155,7 @@ typedef enum
 /*!
  
  Creates (synthesizes) a property for the given class with the
- given properties. Uses retain association for the property.
+ given properties.
  
  As it uses associated object API under the hood, you can only
  synthesize object properties (for now).
@@ -150,15 +166,12 @@ typedef enum
  Core Data NSManagedObject properties).
  
  @param propertyName Name for the property to be created.
- @param typeEncoding Type encoding for the property.
- You can use \@encode compiler directive to let the compiler
- create the type encoding for you. Examples: \@encode(UIView),
- or \@encode(CGPathRef).
+ @param kind Class to represent the kind of the property to be created.
  @param targetClass Class to operate on.
  
  */
 +(void)synthesizePropertyNamed:(NSString*) propertyName
-                ofTypeEncoding:(const char*) typeEncoding
+                        ofKind:(Class) kind
                       forClass:(Class) targetClass
                     withPolicy:(EPPZSwizzlerProperryAssociationPolicy) policy;
 
