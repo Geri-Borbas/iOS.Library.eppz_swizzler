@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "eppz!swizzler"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Basic swizzling wrapped up into an Objective-C interface."
   s.homepage         = "https://github.com/eppz/eppz.swizzler"
   s.license = { :type => 'MIT', :file => 'LICENSE' }

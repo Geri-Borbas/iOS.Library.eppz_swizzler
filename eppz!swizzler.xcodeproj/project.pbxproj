@@ -49,7 +49,6 @@
 		AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eppz!swizzler.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE50EA1A18CBC85E004154D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE68DB6F18CCA66900164B40 /* libeppz!swizzler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libeppz!swizzler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE68DB7318CCA66900164B40 /* eppz!swizzler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eppz!swizzler-Prefix.pch"; sourceTree = "<group>"; };
 		AE68DB7C18CCA66900164B40 /* eppz!swizzlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eppz!swizzlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE68DB8518CCA66900164B40 /* eppz!swizzlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eppz!swizzlerTests-Info.plist"; sourceTree = "<group>"; };
 		AE68DB9118CCA69300164B40 /* EPPZSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZSwizzler.h; sourceTree = "<group>"; };
@@ -67,6 +66,8 @@
 		AE68DB9E18CCA69E00164B40 /* Superman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superman.m; sourceTree = "<group>"; };
 		AE68DB9F18CCA69E00164B40 /* Wolverine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolverine.h; sourceTree = "<group>"; };
 		AE68DBA018CCA69E00164B40 /* Wolverine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolverine.m; sourceTree = "<group>"; };
+		AE68DBAE18CCA99900164B40 /* eppz!swizzler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eppz!swizzler-Prefix.pch"; sourceTree = "<group>"; };
+		AE68DBAF18CCAA5700164B40 /* VERSIONS.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSIONS.md; sourceTree = "<group>"; };
 		D8E717EA18BF929B00E362AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8E7180918BF929B00E362AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8E7182218BFB56900E362AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -109,7 +110,7 @@
 		AE68DB7218CCA66900164B40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE68DB7318CCA66900164B40 /* eppz!swizzler-Prefix.pch */,
+				AE68DBAE18CCA99900164B40 /* eppz!swizzler-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,6 +199,7 @@
 				AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */,
 				D8E7182218BFB56900E362AB /* README.md */,
 				AE267C1718CC07E20066D2A0 /* LICENSE */,
+				AE68DBAF18CCAA5700164B40 /* VERSIONS.md */,
 				AE68DB7118CCA66900164B40 /* eppz!swizzler */,
 				AE68DB8318CCA66900164B40 /* eppz!swizzlerTests */,
 				D8E717E918BF929B00E362AB /* Frameworks */,
