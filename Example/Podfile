@@ -1,7 +1,0 @@
-pod "Premp", :path => "../Premp.podspec"
-
-target "Demo" do
-end
-
-target "DemoTests" do
-end

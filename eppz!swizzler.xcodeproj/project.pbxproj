@@ -10,7 +10,6 @@
 		AE267C0C18CBFD7F0066D2A0 /* Wolverine.m in Sources */ = {isa = PBXBuildFile; fileRef = AE267C0B18CBFD7F0066D2A0 /* Wolverine.m */; };
 		AE267C1018CC00530066D2A0 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = AE267C0F18CC00530066D2A0 /* Human.m */; };
 		AE267C1318CC07C60066D2A0 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1218CC07C60066D2A0 /* CHANGELOG.md */; };
-		AE267C1618CC07DC0066D2A0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1518CC07DC0066D2A0 /* Podfile */; };
 		AE267C1818CC07E20066D2A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1718CC07E20066D2A0 /* LICENSE */; };
 		AE267C1A18CC07F10066D2A0 /* eppz!swizzler.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */; };
 		AE267C1C18CC09BF0066D2A0 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = AE267C1B18CC09BF0066D2A0 /* Rakefile */; };
@@ -55,9 +54,8 @@
 		AE267C0E18CC00530066D2A0 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
 		AE267C0F18CC00530066D2A0 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 		AE267C1218CC07C60066D2A0 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		AE267C1518CC07DC0066D2A0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = Example/Podfile; sourceTree = "<group>"; };
 		AE267C1718CC07E20066D2A0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eppz!swizzler.podspec"; sourceTree = "<group>"; };
+		AE267C1918CC07F10066D2A0 /* eppz!swizzler.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eppz!swizzler.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE267C1B18CC09BF0066D2A0 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
 		AE50EA0018CBC698004154D0 /* Superman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superman.h; sourceTree = "<group>"; };
 		AE50EA0118CBC698004154D0 /* Superman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Superman.m; sourceTree = "<group>"; };
@@ -120,14 +118,6 @@
 				AE267C0F18CC00530066D2A0 /* Human.m */,
 			);
 			name = Human;
-			sourceTree = "<group>";
-		};
-		AE267C1418CC07D10066D2A0 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				AE267C1518CC07DC0066D2A0 /* Podfile */,
-			);
-			name = Example;
 			sourceTree = "<group>";
 		};
 		AE50EA0C18CBC85D004154D0 /* eppz!swizzler */ = {
@@ -216,7 +206,6 @@
 				D8E7182218BFB56900E362AB /* README.md */,
 				AE267C1218CC07C60066D2A0 /* CHANGELOG.md */,
 				AE267C1718CC07E20066D2A0 /* LICENSE */,
-				AE267C1418CC07D10066D2A0 /* Example */,
 				AE50EA0C18CBC85D004154D0 /* eppz!swizzler */,
 				AE50EA1F18CBC85E004154D0 /* eppz!swizzlerTests */,
 				D8E717E918BF929B00E362AB /* Frameworks */,
@@ -317,7 +306,6 @@
 			files = (
 				AE267C1C18CC09BF0066D2A0 /* Rakefile in Resources */,
 				AE267C1818CC07E20066D2A0 /* LICENSE in Resources */,
-				AE267C1618CC07DC0066D2A0 /* Podfile in Resources */,
 				AE267C1318CC07C60066D2A0 /* CHANGELOG.md in Resources */,
 				AE267C1A18CC07F10066D2A0 /* eppz!swizzler.podspec in Resources */,
 			);
