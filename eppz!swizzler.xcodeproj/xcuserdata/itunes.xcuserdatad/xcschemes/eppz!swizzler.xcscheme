@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8E717E618BF929B00E362AB"
-               BuildableName = "eppz!swizzler.app"
+               BlueprintIdentifier = "AE68DB6E18CCA66900164B40"
+               BuildableName = "libeppz!swizzler.a"
                BlueprintName = "eppz!swizzler"
                ReferencedContainer = "container:eppz!swizzler.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8E7180718BF929B00E362AB"
+               BlueprintIdentifier = "AE68DB7B18CCA66900164B40"
                BuildableName = "eppz!swizzlerTests.xctest"
                BlueprintName = "eppz!swizzlerTests"
                ReferencedContainer = "container:eppz!swizzler.xcodeproj">
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8E717E618BF929B00E362AB"
-            BuildableName = "eppz!swizzler.app"
+            BlueprintIdentifier = "AE68DB6E18CCA66900164B40"
+            BuildableName = "libeppz!swizzler.a"
             BlueprintName = "eppz!swizzler"
             ReferencedContainer = "container:eppz!swizzler.xcodeproj">
          </BuildableReference>
@@ -61,8 +61,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8E717E618BF929B00E362AB"
-            BuildableName = "eppz!swizzler.app"
+            BlueprintIdentifier = "AE68DB6E18CCA66900164B40"
+            BuildableName = "libeppz!swizzler.a"
             BlueprintName = "eppz!swizzler"
             ReferencedContainer = "container:eppz!swizzler.xcodeproj">
          </BuildableReference>
@@ -79,8 +79,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8E717E618BF929B00E362AB"
-            BuildableName = "eppz!swizzler.app"
+            BlueprintIdentifier = "AE68DB6E18CCA66900164B40"
+            BuildableName = "libeppz!swizzler.a"
             BlueprintName = "eppz!swizzler"
             ReferencedContainer = "container:eppz!swizzler.xcodeproj">
          </BuildableReference>
