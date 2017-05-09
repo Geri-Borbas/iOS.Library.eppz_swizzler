@@ -53,7 +53,7 @@ typedef enum
  */
 +(void)swapInstanceMethod:(SEL) oneSelector
        withInstanceMethod:(SEL) otherSelector
-                  ofClass:(Class) class;
+                  ofClass:(Class) _class;
 
 
 /*!
@@ -67,7 +67,7 @@ typedef enum
  */
 +(void)swapClassMethod:(SEL) oneSelector
        withClassMethod:(SEL) otherSelector
-               ofClass:(Class) class;
+               ofClass:(Class) _class;
 
 
 /*!
