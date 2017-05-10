@@ -77,7 +77,7 @@ static char associationKeyKey;
     // Exchange.
     method_exchangeImplementations(oneMethod, otherMethod);
     
-    log(@"Exchanged instance method `%@` with `%@` in %@", NSStringFromSelector(oneSelector), NSStringFromSelector(otherSelector), class);
+    log(@"Swapped instance method `%@` with `%@` in %@", NSStringFromSelector(oneSelector), NSStringFromSelector(otherSelector), class);
 }
 
 +(void)swapClassMethod:(SEL) oneSelector
@@ -97,7 +97,7 @@ static char associationKeyKey;
     // Exchange.
     method_exchangeImplementations(oneMethod, otherMethod);
     
-    log(@"Exchanged class method `%@` with `%@` in %@", NSStringFromSelector(oneSelector), NSStringFromSelector(otherSelector), class);
+    log(@"Swapped class method `%@` with `%@` in %@", NSStringFromSelector(oneSelector), NSStringFromSelector(otherSelector), class);
 }
 
 +(void)replaceClassMethod:(SEL) selector
@@ -119,7 +119,7 @@ static char associationKeyKey;
     IMP previousTargetMethod = method_setImplementation(targetMethod,
                                                         method_getImplementation(sourceMethod));
     
-    log(@"Replaced method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), sourceClass, targetClass, (previousTargetMethod) ? @"success" : @"error");
+    log(@"Replaced method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), targetClass, sourceClass, (previousTargetMethod) ? @"success" : @"error");
 }
 
 +(void)replaceInstanceMethod:(SEL) selector
@@ -141,7 +141,7 @@ static char associationKeyKey;
     IMP previousTargetMethod = method_setImplementation(targetMethod,
                                                         method_getImplementation(sourceMethod));
     
-    log(@"Replaced instance method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), sourceClass, targetClass, (previousTargetMethod) ? @"success" : @"error");
+    log(@"Replaced instance method `%@` of %@ from %@ with %@", NSStringFromSelector(selector), targetClass, sourceClass, (previousTargetMethod) ? @"success" : @"error");
 }
 
 +(void)addClassMethod:(SEL) selector
@@ -228,10 +228,10 @@ static char associationKeyKey;
     if (success == NO)
     {
         class_replaceProperty(targetClass, name, attributes, attributesCount);
-        log(@"Replaced property `%@` of %@ to %@ with %@", propertyName, sourceClass, targetClass, (success) ? @"success" : @"error");
+        log(@"Replaced property `%@` of %@ from %@ with %@", propertyName, targetClass, sourceClass, (success) ? @"success" : @"error");
     }
     else
-    { log(@"Added property `%@` of %@ to %@ with %@", propertyName, sourceClass, targetClass, (success) ? @"success" : @"error"); }
+    { log(@"Added property `%@` to %@ from %@ with %@", propertyName, targetClass, sourceClass, (success) ? @"success" : @"error"); }
     
     // Add getter.
     [self addInstanceMethod:NSSelectorFromString(propertyName) toClass:targetClass fromClass:sourceClass];
