@@ -16,16 +16,6 @@
 #import <objc/runtime.h>
 
 
-typedef enum
-{
-    assign = OBJC_ASSOCIATION_ASSIGN,
-    nonatomic_retain = OBJC_ASSOCIATION_RETAIN_NONATOMIC,
-    nonatomic_copy = OBJC_ASSOCIATION_COPY_NONATOMIC,
-    retain = OBJC_ASSOCIATION_RETAIN,
-    copy = OBJC_ASSOCIATION_COPY
-} EPPZSwizzlerProperryAssociationPolicy;
-
-
 @interface EPPZSwizzler : NSObject
 
 
@@ -173,7 +163,7 @@ typedef enum
 +(void)synthesizePropertyNamed:(NSString*) propertyName
                         ofKind:(Class) kind
                       forClass:(Class) targetClass
-                    withPolicy:(EPPZSwizzlerProperryAssociationPolicy) policy;
+                    withPolicy:(objc_AssociationPolicy) policy;
 
 
 @end

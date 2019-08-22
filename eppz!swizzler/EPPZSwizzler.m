@@ -244,7 +244,7 @@ static char associationKeyKey;
 +(void)synthesizePropertyNamed:(NSString*) propertyName
                         ofKind:(Class) kind
                       forClass:(Class) targetClass
-                    withPolicy:(EPPZSwizzlerProperryAssociationPolicy) policy
+                    withPolicy:(objc_AssociationPolicy) policy
 {
     // Get type encoding.
     const char *typeEncoding = @encode(typeof(kind));
