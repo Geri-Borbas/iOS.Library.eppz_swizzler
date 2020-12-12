@@ -12,4 +12,4 @@ pod 'eppz!swizzler', '~> 0.1.1'
 Or just grab [`EPPZSwizzler.h`](https://github.com/eppz/eppz.swizzler/blob/master/eppz!swizzler/EPPZSwizzler.h) and [`EPPZSwizzler.m`](https://github.com/eppz/eppz.swizzler/blob/master/eppz!swizzler/EPPZSwizzler.m) into your project, which takes more time actually.
 
 #### License
-> Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
+> Licensed under the [Open Source MIT license](https://en.wikipedia.org/wiki/MIT_License).
